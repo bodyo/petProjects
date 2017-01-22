@@ -41,30 +41,9 @@ int atoo(const char *srt)
         num = num * 10 + (srt[i] - '0');
     return num;
 }
-class A
-{
-public:
-    virtual void foo()
-    {
-        cout << "A";
-    }
-};
-class B: public A
-{
-private:
-    virtual void foo()
-    {
-        cout << "B";
-    }
-};
-
 
 int main()
 {
-    A *temp = new B;
-    //ano temp;
-    temp->foo();
-    //int (*foo)(const char*) = atoo;
-    //char *et = "2004";
-    //cout << foo(et) << endl << ato1(et);
+    char *et = "2004";
+    cout << foo(et) << endl << ato1(et);
 }
