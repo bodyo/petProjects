@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
-
-int ato(const char *srt)
+int ato(const char *);
+int ato1(const char *);
+int atoo(const char *);
 {
     int number = 1;
     int num = 0;
